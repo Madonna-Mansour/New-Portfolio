@@ -21,7 +21,7 @@ const HeroSection = () => {
             <div className="w-48 h-48 rounded-3xl overflow-hidden bg-gradient-to-br from-purple-600 to-purple-800 p-1 animate-float">
               <div className="w-full h-full rounded-3xl bg-gray-200 flex items-center justify-center">
                 <div className=" rounded-2xl flex items-center justify-center">
-                  <img src={placeholder} className="w-full rounded-3xl w-40 h-full" alt="photo" />
+                  <img src={placeholder} className="w-full rounded-3xl h-44 p- " alt="photo" />
                   <div className="w-20 h-14 bg-gray-400 rounded-lg"></div>
                 </div>
               </div>
