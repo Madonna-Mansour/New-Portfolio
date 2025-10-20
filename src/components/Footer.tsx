@@ -152,7 +152,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="space-y-4" id="home">
-            <h3 className="text-white text-xl font-bold">eid elgohary</h3>
+            <h3 className="text-white text-xl font-bold">Madonna Mansour</h3>
             <p className="text-gray-300 text-sm">
               © {currentYear} Madonna Mansour. Front-End Developer passionate about
               building clean and responsive websites. Let's connect and build
@@ -199,16 +199,16 @@ const Footer = () => {
 
         <div className="border-t border-purple-700/30 pt-8 flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center gap-1 text-gray-300 text-sm mb-4 md:mb-0">
-            <span>© {currentYear} Made with</span>
-            <Heart className="w-4 h-4 text-red-400 fill-current" />
+            <span>© {currentYear} Made by Madonna Mansour</span>
+            {/* <Heart className="w-4 h-4 text-red-400 fill-current" /> */}
           </div>
 
-          <button
+          {/* <button
             onClick={scrollToTop}
             className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer"
           >
             Back to Top
-          </button>
+          </button> */}
         </div>
       </div>
     </footer>

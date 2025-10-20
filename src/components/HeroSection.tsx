@@ -4,7 +4,7 @@ import placeholder from "../../public/imgg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6">
+    <section className="relative min-h-screen flex items-center justify-center px-6 pt-28 sm:pt-32 lg:pt-40">
       <div className="text-center max-w-4xl mx-auto">
         {/* Greeting */}
         <div className="mb-8">
@@ -20,9 +20,12 @@ const HeroSection = () => {
           <div className="relative">
             <div className="w-48 h-48 rounded-3xl overflow-hidden bg-gradient-to-br from-purple-600 to-purple-800 p-1 animate-float">
               <div className="w-full h-full rounded-3xl bg-gray-200 flex items-center justify-center">
-                <div className=" rounded-2xl flex items-center justify-center">
-                  <img src={placeholder} className="w-full rounded-3xl h-44 p- " alt="photo" />
-                  <div className="w-20 h-14 bg-gray-400 rounded-lg"></div>
+                <div className="rounded-2xl flex items-center justify-center">
+                  <img
+                    src={placeholder}
+                    className="w-full rounded-3xl h-44"
+                    alt="photo"
+                  />
                 </div>
               </div>
             </div>
@@ -35,7 +38,8 @@ const HeroSection = () => {
             </h1>
             <p className="text-white text-lg mb-2">
               with a passion for building responsive, user-friendly websites. I
-              create clean, modern interfaces using HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, Redux Toolkit, Axios.
+              create clean, modern interfaces using HTML, CSS, JavaScript,
+              React, Tailwind CSS, Bootstrap, Redux Toolkit, Axios.
             </p>
             <a
               href="./Madonna Mansour.pdf"
@@ -43,7 +47,7 @@ const HeroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-purple-600 m-auto  lg:ms-auto  mt-4 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors">
+              <button className="bg-purple-600 m-auto lg:ms-auto mt-4 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors">
                 <Download className="w-5 h-5" />
                 <span>Download my resume</span>
               </button>
